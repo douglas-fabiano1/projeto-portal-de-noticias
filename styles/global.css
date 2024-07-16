@@ -19,6 +19,7 @@
   --h3: 800 1.4rem/1.4 var(--font-family);
   --span: 600 1.4rem/1.45 var(--font-family);
   --paragraph: 400 1.4rem/1.6 var(--font-family);
+  --content-tag: 500 1rem/1.2 var(--font-family);
 }
 
 body {
@@ -55,4 +56,16 @@ img {
 
 main {
   margin-top: 4rem;
+}
+
+.content-tag {
+  display: inline-block;
+  background-color: var(--brand-color-dark);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font: var(--content-tag);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-color-primary);
+  box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25);
 }
